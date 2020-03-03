@@ -1,0 +1,16 @@
+How to open git bash:
+	- Go to the file directory > Right click > Git Bash Here
+
+Initialize
+	- On git bash run (after $ sign is visible on the command line)
+		git bash
+
+Commands:
+	- git bash
+		- Initializes git bash
+	- git status
+		- Checks status of various files in the folder where bash is running
+	- git add .
+		- All files will be added to git. Dot at the end is for all files and folders/subfolders to add.
+	- git commit -m "comment while commiting" .
+		- Commits the files added. Dot at the end is for all files and folders/subfolders to commit.
