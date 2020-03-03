@@ -10,6 +10,8 @@ import VueRouter from "vue-router"
 import Signup from "./components/Signup.vue"
 import Showproduct from "./components/Showproduct.vue"
 
+alert('in main.js')
+
 
 Vue.use(Vuex)
 

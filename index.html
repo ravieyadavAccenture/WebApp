@@ -1,7 +1,47 @@
+<!DOCTYPE html>
 <html>
-	<head>
-	</head>
-	<body>
-		<h1>Testing</h1>
-	</body>
+  <head>
+    <title>Markdown Editor</title>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/marked@0.3.6"></script>
+    <script src="https://unpkg.com/lodash@4.16.0"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="src/main.js"></script>
+	
+	
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+  <div> hello </div>
+  <!--
+    <div id="editor">
+      <textarea :value="input" @input="update"></textarea>
+      <div v-html="compiledMarkdown"></div>
+    </div>
+
+    <script>
+      new Vue({
+        el: "#editor",
+        data: {
+          input: "# hello"
+        },
+        computed: {
+          compiledMarkdown: function() {
+            return marked(this.input, { sanitize: true });
+          }
+        },
+        methods: {
+          update: _.debounce(function(e) {
+            this.input = e.target.value;
+          }, 300)
+        }
+      });
+    </script>
+	
+	-->
+  </body>
 </html>

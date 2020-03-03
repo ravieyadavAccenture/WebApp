@@ -1,9 +1,21 @@
+Reference:
+https://www.google.com/search?rlz=1C1GCEB_enIN886IN886&sxsrf=ALeKk02ucyf-DRNg1xjfoDYWlb6ncDtJiA%3A1583218210736&ei=Iv5dXtrBLMz6rQGzzazgAg&q=how+to+host+website+on+github&oq=how+to+host+website+on+github&gs_l=psy-ab.3..0i20i263j0j0i20i263j0i22i30j0i22i10i30j0i22i30l5.145954.151905..152102...1.3..0.187.3787.0j30......0....1..gws-wiz.......0i71j35i39j0i273j0i131j0i67.eS1ynV1D_CI&ved=0ahUKEwja2rW42_3nAhVMfSsKHbMmCywQ4dUDCAs&uact=5#kpvalbx=_u_5dXrDaNZDRrQH54omoDg30
+
+
+ravieyadavAccenture / ravieyadavAccentur
+
 How to open git bash:
 	- Go to the file directory > Right click > Git Bash Here
 
 Initialize
 	- On git bash run (after $ sign is visible on the command line)
 		git bash
+
+Set git hub code as web app
+	- On git hub repository > Settings > GitHub Pages
+	- Change source to master branch
+	- This will, in the GitHub Pages section, show a url, which is the web site url
+		- https://ravieyadavaccenture.github.io/WebApp/
 
 Commands:
 	- git bash
@@ -14,3 +26,7 @@ Commands:
 		- All files will be added to git. Dot at the end is for all files and folders/subfolders to add.
 	- git commit -m "comment while commiting" .
 		- Commits the files added. Dot at the end is for all files and folders/subfolders to commit.
+	- git remote add origin https://github.com/ravieyadavAccenture/WebApp.git
+		- Remote origin will be added to local git repository
+	- git push -u origin master
+		- Push the code into the repository
