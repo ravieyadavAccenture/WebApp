@@ -53,54 +53,13 @@
 			setTimeout(function(){var a=b.getElementsByTagName("head")[0];if(a){var c=b.getElementById("at-body-style");c&&a.removeChild(c)}},
 			f)})
 		(window,document,"body {opacity: 0 !important}",3E3);
-		
-		/*
-			Reference: https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/implement-solutions/target.html
-		*/
 	</script>
-	
-	<script type="text/javascript">
-		/* 
-			REFERENCE: 	https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/global-mbox/pass-parameters-to-global-mbox.html#concept_33362A04146C4E3C8E7089B65F38B5E5
-			
-			targetPageParams() will add parameters in the returned array into the global mbox
-		*/
-        function targetPageParams() {
-			//<b>return "p1=v1&p2=v2&p3=hello%20world"</b>;
-			//return ["a=1", "b=2", "c=hello world"];
-			return {
-				"a": 1,
-				"b": 2,
-				"profile": {
-					"memberStatus": Gold,
-					"country": {"city": "San Francisco"}
-				}
-			};
-        }
-		
-		/* 
-			targetPageParamsAll() will add parameters in the returned array into the all mbox
-		*/
-        function targetPageParamsAll() {
-			//<b>return "p1=v1&p2=v2&p3=hello%20world"</b>;
-			//return ["a=1", "b=2", "c=hello world"];
-			return {
-				"c": 1,
-				"d": 2,
-				"profile_common": {
-					"memberStatus": Gold,
-					"country": {"city": "San Francisco"}
-				}
-			};
-        }
-    </script> 
 	
     <!--jQuery or other helper libraries-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!--/jQuery-->
 	
     <!--Launch Header Embed Code: REPLACE THE NEXT LINE WITH THE EMBED CODE FROM YOUR OWN DEVELOPMENT ENVIRONMENT-->
-    <!--<script src="//assets.adobedtm.com/launch-EN93497c30fdf0424eb678d5f4ffac66dc.min.js" async></script>-->
 	<script src="https://assets.adobedtm.com/e72b4113c11a/7e3cf83a5829/launch-5f65b7fb4163-development.min.js" async></script>
     <!--/Launch Header Embed Code-->
 </head>
@@ -108,6 +67,6 @@
     <h1>Launch, by Adobe: Sample HTML Page</h1>
     <p>This is a very simple page to demonstrate basic implementation concepts of Launch, by Adobe</p>
     <p>See <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html">Implementing the Experience Cloud in Websites with Launch</a> for the complete tutorial</p>
-	<p>See <a href="https://ravieyadavaccenture.github.io/WebApp/thank-you.html">Order confirmation</p>
+	<p>See <a href="https://ravieyadavaccenture.github.io/WebApp/">Home</p>
 </body>
 </html>
