@@ -114,11 +114,12 @@
 	<script>
 		var counter = 0;
 		$(document).ready(function() {
+			window.dataLayer = window.dataLayer || [];
 			//$('#testCheckbox').on('change', function() {
 			$('#testCheckbox').click(function() {
 				console.log("clicked");
 				counter += 1;
-				window.digitalData.push({
+				window.dataLayer.push({
 					'event': 'checkboxClick',
 					'formLocation': 'who cares',
 					'testValue': counter + ' clicks so far'
