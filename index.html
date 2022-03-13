@@ -111,4 +111,11 @@
 	<p>See <a href="https://ravieyadavaccenture.github.io/WebApp/thank-you.html">Order confirmation</a></p>
     <input type="checkbox" id="testCheckbox" name="testCheckBox" value="Bike"><label for="testCheckBox"> Checkbox to test triggerView() in target</label><br>
 </body>
+	<script>
+		$(document).ready(function() {
+			$('#testCheckbox').on('change', function() {
+				console.log("clicked");
+			}
+		}
+	</script>
 </html>
